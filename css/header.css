@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+
+     
+/* HEADER */
+#header{width: 100%; height: 70px;
+        border: 1px solid #fff;
+        display: flex; 
+        justify-content: center;
+        z-index: 99;
+        position: fixed;
+        overflow: hidden;
+        }
+#logo a{display: block; width: 133px; height: 42px;
+        background: url(../images/main_logo.png);
+        text-indent: 110%; overflow: hidden;
+        position: absolute; left:70px; top:14px;}
+
+#lnb{
+     position: absolute;
+     top:25px; right:80px;
+     background: #fff;
+     font-size: 11px;
+     border-radius: 15px;
+     text-transform: uppercase;
+     }
+#lnbList{display: flex;
+        border-radius: 15px;
+        background: #000;
+    }
+#lnbList > li{padding: 5px 10px;}
+
+#lnbList > li > a {
+    color: #fff;
+}
+#gnbList{
+         display: flex;
+         text-align: center;}
+#gnbList > li{margin: 0 15px; font-weight: bold; font-size: 20px;}
+#gnbList > li > a{display: block;
+              height: 35px;
+              line-height: 70px;}
+#gnbview > i{
+        display: none;
+        position: absolute;
+        top: 21px;
+        right: 5px;
+        font-size: 30px;
+}
+.snb{margin-top: 50px;}
+.snb > li > a{line-height: 35px;}
+
+
+
+
+/* WHO WE ARE */
+
+#who{width: 100vw; height: 1500px;
+     
+     background: url(../images/main_mid_bg_02_new.jpg) left center;
+     background-size: cover;}
+#wwa{font-size:5.5vw}
+#back1{
+        width: 100%; height: 100%;
+        background: url(../images/yoon.png) no-repeat left center;}
+#back2{background: url(../images/jo.png) no-repeat;
+        display: none;}
+#back3{background: url(../images/kim.png) no-repeat;
+        display: none;}
+.itv{font-size:1.7vw; color:#cad401; font-weight: 900;}
+.name{font-size: 3.2vw; color:#222; font-weight: 900;}
+.name span{font-size: 1.3vw; color:#999999;
+           padding-left: 10px;}
+
+.nice{font-size: 2.6vw; color:#222;
+      font-weight: 900;}
+.nicetxt{font-size: 1.4vw; color:#222;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

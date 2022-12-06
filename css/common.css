@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* 전체설정 */
+@font-face {
+    font-family: 'NEXON Lv2 Gothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* { box-sizing: border-box; font-family: 'NEXON Lv2 Gothic';}
+
+body, h1, h2, h3, p, ul {margin: 0; padding :0;}
+ul li{list-style: none;}
+a {text-decoration: none; color:#000}
+.hidden {position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip-path: polygon(0 0, 0 0, 0 0);}
+    

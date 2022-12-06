@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+/* news */
+
+#newssec {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#newssec > div {}
+#newssec > div > h3 {}
+#newssec > div > ul {
+    display: flex;
+}
+#newssec > div > ul > li {
+    width: 30%;
+}
+
+/* arc1 */
+/* 
+#arc1 {}
+#arc1 > dt {}
+#arc1 > dt > a {}
+#arc1 .arcImg {}
+#arc1 .arcImg a {}
+#arc1 .arcgame {}
+#arc1 .arcgame a {}
+#arc1 .arccontent {}
+*/
+
+/* arc2 */
+/* 
+#arc2 {}
+#arc2 > dt {}
+#arc2 > dt > a {}
+#arc2 .arcImg {}
+#arc2 .arcImg a {}
+#arc2 .arcgame {}
+#arc2 .arcgame a {}
+#arc2 .arccontent {} */
+
+/* arc3 */
+/* 
+#arc3 {}
+#arc3 > dt {}
+#arc3 > dt > a {}
+#arc3 .arcImg {}
+#arc3 .arcImg a {}
+#arc3 .arcgame {}
+#arc3 .arcgame a {}
+#arc3 .arccontent {}
+*/
+
+/* #more {} */
+
+/* top */
+#top{
+    background: #000;
+    position: fixed; right:25px; bottom:100px;
+    text-align: center; line-height: 60px;
+    border-radius: 50%; text-transform: uppercase;
+    overflow: hidden;
+}
+#top a {
+    display: block; width: 60px; height: 60px;
+    color: #fff;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    background: #f3f3f3;
+    display: flex;
+    /* justify-content: ; */
+    /* flex-wrap: wrap; */
+
+}
+#flogo {
+    display: block;
+    background: url(../images/footer_logo.png) no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+footer address {}
+footer address p {}
+
+#gdweb {}
+#fgnbList {
+    right:0;
+}
+#fbtm {
+    width: 100%;
+}
+
+
