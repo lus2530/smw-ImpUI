@@ -77,6 +77,8 @@ footer {
 
 }
 #flogo {
+    width: 300px;
+    height: 50px;
     display: block;
     background: url(../images/footer_logo.png) no-repeat;
     text-indent: -9999px;
@@ -85,12 +87,24 @@ footer {
 footer address {}
 footer address p {}
 
-#gdweb {}
+#gdweb {
+    width: 300px;
+    height: 50px;
+    display: block;
+    background: url(../images/winner_logo.jpg) no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+}
 #fgnbList {
     right:0;
 }
 #fbtm {
     width: 100%;
+    display: flex;
 }
+#fbtm dt {}
+#fbtm dt::after {}
+#fbtm dd {}
+
 
 
