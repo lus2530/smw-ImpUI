@@ -1,7 +1,32 @@
 @charset "utf-8";
 
 /* slogan */
+#slogan {
 
+}
+#slogan div{
+    background: url(../images/main_mid_img_01_new.png);
+}
 
 /* section */
-#career
+#career {
+ width: 1280px;
+}
+#career h2 {
+    text-transform: capitalize;
+    font-size: 65px;
+
+}
+#career p {
+    background: url(../images/careers_visual.jpg);
+    background-size: cover;
+    width: 50%;
+    font-size: 36px;
+}
+#career a {
+    position: absolute;
+
+}
+#career a:hover {
+
+}
