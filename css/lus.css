@@ -72,13 +72,9 @@ footer {
     width: 100%;
     background: #f3f3f3;
     display: flex;
-    /* justify-content: column; */
+    /* justify-content: ; */
     /* flex-wrap: wrap; */
 
-}
-#fTop {
-    display: flex;
-    /* flex-wrap: wrap; */
 }
 #flogo {
     width: 300px;
@@ -88,9 +84,7 @@ footer {
     text-indent: -9999px;
     overflow: hidden;
 }
-footer address {
-    /* left: 0; */
-}
+footer address {}
 footer address p {}
 
 #gdweb {
@@ -103,24 +97,14 @@ footer address p {}
 }
 #fgnbList {
     right:0;
-    display: flex;
-}
-#fgnbList li{
-    margin-left: 20px;
-    width: 100px;
 }
 #fbtm {
     width: 100%;
     display: flex;
 }
-#fbtm dl {
-    right: 0;
-}
 #fbtm dt {}
 #fbtm dt::after {}
-#fbtm dd{
-    display: hidden;
-}
+#fbtm dd {}
 
 
 
