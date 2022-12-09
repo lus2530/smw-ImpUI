@@ -2,31 +2,69 @@
 
 /* slogan */
 #slogan {
+    width: 100%; 
+    padding: 0 10px;
+    
+}
+#slogan  {
+  
+}
+
+#slogan > h2 , p {
+    height: 300px;
+
 
 }
-#slogan div{
-    background: url(../images/main_mid_img_01_new.png);
+#slogan> h2 {
+    font-weight: 300;
+    position: relative; top: 200px;
+    padding-bottom: 15px;
+    text-transform:capitalize;
+    text-align: center;
+    font-size: 66px;
+}
+
+#slogan > p {
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 66px;
+}
+#slogan > div:first-of-type {
+  
+}
+#slogan > div > div  {
+    background: url(../images/main_mid_img_01_new.png) no-repeat;
+    background-position: center;
+    
+    
+}
+#slogan > div > p {
+   float: left;
 }
 
 /* section */
 #career {
- width: 1280px;
+    width: 1280px;
 }
+
 #career h2 {
     text-transform: capitalize;
     font-size: 65px;
 
 }
+
 #career p {
     background: url(../images/careers_visual.jpg);
     background-size: cover;
     width: 50%;
     font-size: 36px;
 }
+
 #career a {
     position: absolute;
 
 }
-#career a:hover {
-
-}
+ 
