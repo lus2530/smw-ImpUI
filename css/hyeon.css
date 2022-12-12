@@ -6,11 +6,8 @@
     padding: 0 10px;
     
 }
-#slogan  {
-  
-}
 
-#slogan > h2 , p {
+#slogan > h2, #slogan > p {
     height: 300px;
 
 
