@@ -1,30 +1,28 @@
 @charset "utf-8";
+/* trailor */
+#trailor {
+
+}
+
+
 
 /* slogan */
 #slogan {
-    width: 100%; 
+    position: relative;
+    width: 100%;
     padding: 0 10px;
-    
-}
-#slogan  {
-  
-}
-
-#slogan > h2 , p {
-    height: 300px;
-
 
 }
-#slogan> h2 {
-    font-weight: 300;
-    position: relative; top: 200px;
-    padding-bottom: 15px;
-    text-transform:capitalize;
+
+#slogan>h2 {
+    font-weight: normal;
+    padding-bottom: 10px;
+    text-transform: capitalize;
     text-align: center;
     font-size: 66px;
 }
 
-#slogan > p {
+#slogan>p {
     text-align: center;
     position: relative;
     text-transform: uppercase;
@@ -32,39 +30,71 @@
     text-align: center;
     font-size: 66px;
 }
-#slogan > div:first-of-type {
-  
+
+#slogan>div {
+    position: relative;
+    margin-top: 100px;
+    width: 1000px;
+    height: 700px;
+    background: url(../images/main_mid_img_01_new.png) right no-repeat;
+    background-size: 700px 700px;
+    background-position: right top;
+    left: 300px;
+    padding: 30px;
+
 }
-#slogan > div > div  {
-    background: url(../images/main_mid_img_01_new.png) no-repeat;
-    background-position: center;
-    
-    
+
+#slogan>div>div>p {
+    position: relative;
+    font-size: 23px;
+    padding: 20px 100px;
+    top: 200px;
+    left: -250px;
 }
-#slogan > div > p {
-   float: left;
+
+#slogan::after {
+    content: "|";
+    top: 180px;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+
+
 }
 
 /* section */
 #career {
+    position: relative;
     width: 1280px;
+    height: 400px;
+    margin: 200px auto 150px;
+    padding: 100px 0 100px 0;
+    background: url(../images/careers_visual.jpg) no-repeat;
+    background-size: cover;
 }
 
 #career h2 {
-    text-transform: capitalize;
+    position: absolute;
+    top: -100px;
     font-size: 65px;
-
 }
 
 #career p {
-    background: url(../images/careers_visual.jpg);
-    background-size: cover;
-    width: 50%;
-    font-size: 36px;
+    position: absolute;
+    font-size: 30px;
+    bottom: -50px;
+    padding: 20px 10px;
+    background: #fff;
 }
 
 #career a {
     position: absolute;
-
+    font-size: 24px;
+    right: 30px;
+    top: -55px;
 }
- 
+#career a::after {
+    background:url(../images/slide_next.png) no-repeat;
+}

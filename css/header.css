@@ -40,13 +40,40 @@
 #gnbList > li > a{display: block;
               height: 35px;
               line-height: 70px;}
-#gnbview > i{
+#gnbview {
         display: none;
         position: absolute;
         top: 21px;
         right: 5px;
         font-size: 30px;
 }
+
+@media screen and (max-width:1440px) {
+        #gnbview{
+                display: block;
+        }
+        #header{
+                justify-content: center;
+        }
+        #gnbList{
+                width: 70vw;
+                height: 100%;
+                position: fixed;
+                flex-flow: column wrap;
+                right: -100%;
+                top: 0;
+                text-align: left;
+                background: #fff;
+        }
+        #gnbList > li {
+                overflow: hidden;
+                width: 100%;
+                height: 70px;
+        }
+        
+}
+
+
 .snb{margin-top: 50px;}
 .snb > li > a{line-height: 35px;}
 
@@ -55,30 +82,102 @@
 
 /* WHO WE ARE */
 
-#who{width: 100vw; height: 1500px;  
-     background: url(../images/main_mid_bg_02_new.jpg) left center;
-     background-size: cover;}
-#who > div {
-        display: flex;
-}
-#wwa{font-size:5.5vw}
-#back1{
-        width: 100%; height: 100%;
-        background: url(../images/yoon.png) no-repeat left center;
-}
-#back2{background: url(../images/jo.png) no-repeat;
-        display: none;}
-#back3{background: url(../images/kim.png) no-repeat;
-        display: none;}
-.itv{font-size:1.7vw; color:#cad401; font-weight: 900;
-     }
-.name{font-size: 3.2vw; color:#222; font-weight: 900;}
-.name span{font-size: 1.3vw; color:#999999;
-           padding-left: 10px;}
+#who{
+        position: relative;
+        width: 100vw; 
+        height: 1000px;  
+        background: url(../images/main_mid_bg_02_new.jpg) no-repeat;
+        background-size: cover;
+        }
 
-.nice{font-size: 2.6vw; color:#222;
-      font-weight: 900;}
-.nicetxt{font-size: 1.4vw; color:#222;}
+#whoWrap {
+        width: 1280px;
+        padding: 250px 0 380px;
+        margin: 0 auto;
+        }
+
+
+#whoWrap > h2{
+        height: 100px;
+        font-size: 50px;}
+
+.div1{width: 100%; overflow: hidden;}
+
+.div2{width: 300%; display: flex;}
+
+.img{
+        width: 10%;
+        height: 300px;
+        display: block;
+        }
+
+#yoon{
+        background: url(../images/yoon.png) no-repeat left 50px center;
+        background-size: contain;}
+
+#jo{
+        background: url(../images/jo.png) no-repeat left 50px center;
+        background-size: contain;}
+
+#kim{
+        background: url(../images/kim.png) no-repeat left 50px center;
+        background-size: contain;}
+
+
+.back{width: 23.3333%;
+        }
+
+.black{margin:0; padding:0;}
+
+.p1{
+        font-size:18px; 
+        color:#cad401; 
+        font-weight: 900;
+        margin-bottom:  20px;}
+
+.p2{font-size: 45px; color:#222; font-weight: 900;}
+
+.p2 span{font-size: 1.3vw; color:#999999; padding-left: 10px;}
+
+.p3{
+        font-size: 33px; 
+        color:#222; 
+        font-weight: 900;
+        position: relative;
+        margin-top: 60px;
+}
+.p3 > b::before {
+        content: "";
+        position: absolute;
+        left: 1%;
+        top: 50%;
+        width: 27%;
+        height: 50%;
+        background: gray;
+        opacity: 0.1;
+    }
+
+.p4{
+        font-size: 18px; 
+        color:#222;
+        padding-top: 10px;
+        margin-left: 20px;
+        line-height: 30px;}
+
+#prev{
+        font-size: 20px;
+        position: relative;
+        bottom: 20px;
+        left: 1000px;
+        }
+
+.bar{
+        display: inline-block;
+        margin:0 15px;
+        background: #ddd;
+        width: 1px;
+        height: 10px;
+}
 
 
 
