@@ -3,12 +3,19 @@
 /* news */
 
 #newssec {
-    width: 100%;
+    width: 1280px;
+    height: 900px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-bottom: 210px;
+    /* justify-content: space-between; */
 }
-#newssec > div {}
-#newssec > div > h3 {}
+/* #newssec > div {} */
+#newssec > div > h3 {
+    font-size: 50px;
+    height: 100px;
+}
 #newssec > div > ul {
     display: flex;
 }
@@ -16,17 +23,30 @@
     width: 30%;
 }
 
+#arcWrap {
+    width: 100%;
+    /* display: flex; */
+}
+#arcList {
+    width: 100%;
+    display: flex;
+}
+
 /* arc1 */
-/* 
-#arc1 {}
-#arc1 > dt {}
-#arc1 > dt > a {}
-#arc1 .arcImg {}
-#arc1 .arcImg a {}
-#arc1 .arcgame {}
-#arc1 .arcgame a {}
-#arc1 .arccontent {}
-*/
+
+/* #arc1 {} */
+/* #arc1 > dt {} */
+/* #arc1 > dt > a {} */
+/* #arc1 .arcImg {} */
+#arc1 .arcImg a {
+    width: 360px;
+    background: url(./images/arc_pic_t1.jpg) no-repeat;
+    display: block;
+}
+/* #arc1 .arcgame {} */
+/* #arc1 .arcgame a {} */
+/* #arc1 .arccontent {} */
+
 
 /* arc2 */
 /* 
@@ -84,8 +104,8 @@ footer {
     text-indent: -9999px;
     overflow: hidden;
 }
-footer address {}
-footer address p {}
+/* footer address {}
+footer address p {} */
 
 #gdweb {
     width: 300px;
@@ -102,9 +122,9 @@ footer address p {}
     width: 100%;
     display: flex;
 }
-#fbtm dt {}
+/* #fbtm dt {}
 #fbtm dt::after {}
-#fbtm dd {}
+#fbtm dd {} */
 
 
 
